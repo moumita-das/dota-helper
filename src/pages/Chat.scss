@@ -1,0 +1,40 @@
+.chat__wrapper{
+    .chat-header__wrapper{
+        .main-row{
+            height: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em 0.5em;
+            background-color: var(--color-primary);
+            color: var(--color-secondary)
+        }
+         .control-panel{
+            padding: 0.5em 1em;
+            background-color: var(--color-primary);
+            color: #D9D9D9;
+            .confirm {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+         }      
+    }
+    .chat-footer__wrapper{
+        .footer-row{
+            display: flex;
+            padding: 0.25em 1em;
+
+
+            .input__wrapper{
+                flex: 8;
+            }
+            .controls__wrapper{
+                flex: 4;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }        
+    }
+}
